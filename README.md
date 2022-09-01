@@ -10,7 +10,7 @@ Build .NET domain models that run as interactive prototypes, then use those prot
 
 #### Watch the video
 This short video gives you an example of what Fresnel can do:
-  - [video]
+  - [Fresnel 4 minute intro](https://www.youtube.com/watch?v=vcZyE4HZavQ)
 
 #### Sample projects
 
@@ -19,6 +19,7 @@ This short video gives you an example of what Fresnel can do:
 
 - **Want to see the various capabilities and features of Fresnel?** Use this sample project and the Developer documentation to guide you:
   - [Fresnel.Sample.Features](https://github.com/Envivo-Software/Fresnel.Sample.Features)
+
 ### Documentation
 The Developer's guide can be found at https://github.com/Envivo-Software/Fresnel/wiki
 

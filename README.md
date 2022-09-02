@@ -6,13 +6,21 @@ Fresnel is a .NET library that accelerates the discovery, analysis, and design p
 
 Build .NET domain models that run as interactive prototypes, then use those prototypes to explore the domain model with your team and your Domain Experts.
 
-### Getting Started
+## Getting Started
 
-#### Watch the video
+### Requirements
+
+- Windows 10 or above
+- .NET 6
+- Visual Studio 2022, with Workloads:
+  - .NET Desktop Development
+  - .NET Multi-platform App UI Development
+ 
+### Watch the video
 This short video gives you an example of what Fresnel can do:
   - [Fresnel 4 minute intro](https://www.youtube.com/watch?v=vcZyE4HZavQ)
 
-#### Sample projects
+### Sample projects
 
 - **Starting a new DDD project?** Use this sample project as a starting point:
   - [Fresnel.Sample.ShoppingProject](https://github.com/Envivo-Software/Fresnel.Sample.ShoppingProject)

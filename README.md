@@ -6,13 +6,15 @@ Fresnel is a .NET library that accelerates the discovery, analysis, and design p
 
 Build .NET domain models that run as interactive prototypes, then use those prototypes to explore the domain model with your team and your Domain Experts.
 
+Fresnel is built on .NET 6, Blazor, and Visual Studio 2022.
+
 ## Getting Started
 
 ### Requirements
 
 - Windows 10 or above
 - .NET 6
-- Visual Studio 2022, with Workloads:
+- Visual Studio 2022, with Workloads for:
   - .NET Desktop Development
   - .NET Multi-platform App UI Development
  

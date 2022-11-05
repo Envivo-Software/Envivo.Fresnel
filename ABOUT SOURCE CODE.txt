@@ -1,0 +1,2 @@
+We have decided to keep Fresnel closed-source for the time being.
+We’ll review this after we’ve had community feedback on it.

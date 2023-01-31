@@ -1,4 +1,4 @@
-# 2023-01-31: v0.10.0
+# 2023-01-31: v0.10.1
 ## 🎁 New features:
 - Model Config classes (alternative to inline Attribute Configurations)
 - DefaultValuesAttribute for properties/parameters

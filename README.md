@@ -33,4 +33,4 @@ This short video gives you an example of what Fresnel can do:
 ### Documentation
 The Developer's guide can be found at https://github.com/Envivo-Software/Envivo.Fresnel/wiki
 
-*Copyright 2022 Envivo Software*
+*Copyright 2022-2023 Envivo Software*

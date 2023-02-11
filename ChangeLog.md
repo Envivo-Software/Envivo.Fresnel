@@ -1,4 +1,4 @@
-# 2023-02-11: v0.11.0
+# 2023-02-11: v0.11.1
 ## 🎁 New features:
 - Objects that added/removed from collections are no longer considered dirty
 - "Save All" is only enabled for visible Explorer cards

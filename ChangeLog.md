@@ -1,3 +1,15 @@
+# 2023-02-11: v0.11.0
+## 🎁 New features:
+- Objects that added/removed from collections are no longer considered dirty
+- "Save All" is only enabled for visible Explorer cards
+- Collection dirty status now reset correctly
+- Opening properties or persistent objects now marks contents as persistent too
+
+## 🎨 Improvements:
+- Better handling of Explorer auto-scrolling
+- Search Dialogs now have constant width
+- Internal stateless Commands now have InstancePerLifetimeScope
+
 # 2023-01-31: v0.10.1
 ## 🎁 New features:
 - Model Config classes (alternative to inline Attribute Configurations)

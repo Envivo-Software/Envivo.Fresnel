@@ -1,6 +1,37 @@
+# 2023-05-08: v0.24.5
+## 🎁 New features:
+- Added support for IAggregateReference<T>
+- Refactored BlazorWinformBuilder into separate project
+- Display spinner animation for long running operations
+- Now supports async methods from the UI
+
+## 🐞 Fixes:
+- Allow Container configuration even if IServiceCollection isn't present
+- XML documentation: Read from embedded resource if available
+- Method Dialog: Use default values for Optional Parameters
+- Method Dialog: Prevent double-clicks invoking method multiple times
+- Method dialog: Report errors if Method Parameter can't be set
+- Properties: Corrections with FilterQuerySpecification and calling GetResultsAsync(parentObject)
+- Search results: Allow primitive column sorting 
+- Load Property: Handle null results
+- Property Search Query: Report errors if query fails
+- ValueObject: Don't allow null to be cloned
+
+## 🎨 Improvements:
+- Method Dialog: Prevent input fields losing focus, where possible
+- Remove "Async" prefix from async Method names
+
+## 💨 Other:
+- Performance: Added RenderOptimiser to reduce render cycles
+- Performance: Prevent in-line lambda delegates being created on every render cycle
+- Performance: Reduce string creations
+- Performance: Optimised CascadingValues
+- Performance: Other rendering optimisations
+
+
 # 2023-02-11: v0.11.1
 ## 🎁 New features:
-- Objects that added/removed from collections are no longer considered dirty
+- Objects that are added/removed from collections are no longer considered dirty
 - "Save All" is only enabled for visible Explorer cards
 - Collection dirty status now reset correctly
 - Opening properties or persistent objects now marks contents as persistent too

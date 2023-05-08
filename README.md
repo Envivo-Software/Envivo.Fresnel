@@ -18,6 +18,13 @@ Fresnel is built on .NET 6, Blazor, and Visual Studio 2022.
   - .NET Desktop Development
   - .NET Multi-platform App UI Development
  
+### Install the template
+```
+> cd <my repo folder>
+> dotnet new install Envivo.Fresnel.Templates
+> dotnet new fresnelprototype -o MyFirstPrototype
+``` 
+ 
 ### Watch the video
 This short video gives you an example of what Fresnel can do:
   - [Fresnel 4 minute intro](https://www.youtube.com/watch?v=vcZyE4HZavQ)

@@ -1,3 +1,14 @@
+# 2023-05-29: v0.24.7
+## 🐞 Fixes:
+- Library: Restored Search Filter functionality
+- Undo: Stop using DLR when restoring from repository
+- Search Results dialog: Prevent exception if OK clicked without selecting a Search Result item
+- Search Results dialog: Prevent exception when cancelling selection
+
+## 🎨 Improvements:
+- Messages panel: Added quotes and consistency to content
+
+
 # 2023-05-08: v0.24.5
 ## 🎁 New features:
 - Added support for IAggregateReference<T>

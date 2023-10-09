@@ -1,3 +1,92 @@
+# 2023-10-10: v0.75.6
+## ❗ BREAKING:
+- Updated for breaking changes in ModelTypes library
+- Collection properties: Now uses [[CollectionAttribute]] to bind custom `Add/Remove` methods
+
+## 🎁 New features:
+- BlazorWinFormBuilder: Ability to enable/disable features
+- Workbench: Added panning and zoom, to help navigate a busy workbench
+- Library: Now uses mega-menu to improve usability
+- Library: Allow classes to be hidden in Library
+- Messages Panel: Exceptions need acknowledgement for Message Counter to turn green 
+- Messages Panel: Toast messages appear for key messages
+- UI styling: Use 'doodle' style for Preview and Designer editions
+- Explorers: Support custom icons and accent colours
+- Explorers: Allow card minimise and maximise
+- Search Dialog: Added "Re-run Search" toolbar option
+- Search: Now uses IPagedFiltering if Repository implements it
+- Methods: Support for rendering Methods alongside related Properties
+- Methods: Show MethodAttribute.MandatoryPromptText if available
+- Methods: Show MethodAttribute.UnsavedChangesPromptText when parent object is dirty
+- Command Dialogs: Added support for ICommandObject instances
+- Strings: Added support for URLs
+- Strings: Added support for Images
+- Strings: Added support for Files
+
+## 🐞 Fixes:
+- Session restart: Prevent explorer exceptions after Ctrl-F5
+- Library: Exclude namespaces that don't have visible classes
+- Library: Handle mismatched namespaces in Domain Model
+- Explorers: Corrected auto-scrolling positioning
+- Explorers: Corrected "Save" tooltip when changes are detected
+- Explorers: Disable "Save" if Feature is disabled during boostrap
+- Explorers: Allow "Reload" if object has persistent storage
+- Explorers: Do not render properties that belong to other classes (inheritance siblings)
+- Explorers: Allow Collections to be explored (in case they are returned by a method)
+- Search: Use explicit SearchClass, if selected by user
+- Search Results: No longer constantly fire StateHasChanged 
+- Reload: Handle exception when persistent Collection Property contains null
+- Properties: Allow PropertyTypes that are NOT Domain classes
+- Collection properties: Corrected 'Remove' interaction
+- Collection properties: Corrected exception when undoing collection changes for persistent objects
+- Collection properties: Allow 'Add', even if 'Create' is not allowed
+- Collections: Handle AggregateReference sub-types
+- Collections: Corrected inline editing
+- Collections: Prevent column widths jumping around when cells are edited
+- Collections: Cope with contents changes trigged by Method calls
+- Enums: Show Friendly Name
+- ObjectSelectEditor: Show Collection Elements for objects not already in the UI
+- NumberEditor: Show Currency symbol, if applicable
+- NumberEditor: Default Min/Max based on property Type
+- Methods: Handle async methods that do not return values
+- Method Dialog: Reset parameters before dialog appears
+- Method Parameters: Use consistent icon for 'Clear'
+- Method Parameters: Clear now works
+- Shutdown: Allow shutdown if app crashes internally
+
+## 🎨 Improvements:
+- BlazorWinFormBuilder: Added BuildServiceProvider(), so consumers can access dependencies before launching the UI
+- Startup: New loading page
+- Workbench: Spinner animations for long-running opeations
+- Workbench toolbar: Now anchored to top of viewport, and less intrusive
+- Messages Panel: Improved layout and formatting
+- Messages Panel: Only show messages for key events
+- Library: Improved Namespace titles, so that nested namespaces are clearer
+- Library: Domain Services and Domain Classes now appear in same namespaces
+- Library: Support custom icons and accent colours
+- Library: Allow classes to be hidden in Library, but visible in Workbench
+- Explorers: Improved animation to show where Explorers are added/removed from UI
+- Explorers: Disable editing of Aggregates and Parents when displayed inline
+- Explorers: Show information icon before description
+- Explorers: Automatically close Explorers for orphaned objects for property/collection changes
+- Collections: Now shows 'Type Name' column, if collection supports multiple types 
+- Collections: Indicate non-editable cells when grid contains polymorphic types
+- Collections: Added "View" button, so Collections can appear in separate Explorer
+- Search Results: Removed radio option, as "View" button is used to expand an item
+- Search Results: Include Total Count in message
+- Query Specifications: Improved identification of overload method when injecting parent object as context
+- Methods: Show Search Dialog immediately for Methods with a single object/collection parameter
+- Methods: Factory methods, and instance Methods all use common UI behaviours
+- Methods: Factory methods, and instance Methods all use common UI behaviours
+- Methods dialog: Increase width if any parameter shows an inline collection
+- About Dialog: Show licence details
+- Shutdown: Prompt to save changes before shutting down
+
+## 💨 Other:
+- Updated to .NET 7.0
+- Upgraded all 3rd party packages
+
+
 # 2023-05-29: v0.24.7
 ## 🐞 Fixes:
 - Library: Restored Search Filter functionality

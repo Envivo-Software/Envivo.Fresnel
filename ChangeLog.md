@@ -1,4 +1,4 @@
-# 2023-10-10: v0.75.6
+# 2023-10-11: v0.75.6
 ## ❗ BREAKING:
 - Updated for breaking changes in ModelTypes library
 - Collection properties: Now uses [[CollectionAttribute]] to bind custom `Add/Remove` methods

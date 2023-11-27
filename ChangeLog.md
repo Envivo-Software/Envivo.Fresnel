@@ -1,3 +1,41 @@
+# 2023-11-27: v0.8.0
+## ❗ BREAKING:
+- Updated to .NET 8
+
+## 🎁 New features:
+- Relational Queries: Now supports  `RelationalQuerySpecificationAttribute` to load collection properties on-demand
+- `IUnitOfWorkAdapter`: Allow granular `Save` operations (licence enabled feature)
+
+## 🐞 Fixes:
+- Change Tracking: Track objects linked/unlinked from Properties
+- Change Tracking: Do not mark object as 'dirty' if same object is added then removed from collection
+- Change Tracking: Do not mark object as 'dirty' if same object is removed then re-added from collection
+- Collections: Throw exception if element type is unsupported
+- Collections: Keep different Inline Collections in sync
+- Dependency Injection: Corrected lifetime scopes for classes that implement IDomainDependency
+- Number Editor: Corrected Range calculation for number properties
+- Methods: Ensure Command Objects can be executed from UI
+- Search Dialog: Opening search result now reloads fresh instance from persistent store
+- Configuration classes: Now copes with interfaces higher up the inheritance chain
+- Configuration classes: IAudit is now readonly by default (value object)
+- UI: Inline Objects now cleared when property is set to null
+- UI: Corrected tooltip for 'Remove'
+- UI: Disable 'Remove' for Dictionary properties
+
+## 🎨 Improvements
+- Collections: Improved usability of "Remove" operation
+- Collection propertiess: Allow viewing in separate explorer
+- UI styling: Doodle mode now uses 'grid paper' background
+- UI styling: Adjusted Boolean switch height in Doodle mode
+- UI: First/Last columns in Collection are frozen
+- Library: Tweaked columns to reduce string truncation
+- Tooltips: Updated text for clarity
+- Tooltips: Tweaked text for 'Restore' depending on whether object is transient or persistent
+- Startup: Builder fluent API now allows configuring Services and pre-startup steps
+
+## 💨 Other:
+- Performance: Reduced component render cycles
+
 # 2023-10-11: v0.75.6
 ## ❗ BREAKING:
 - Updated for breaking changes in ModelTypes library

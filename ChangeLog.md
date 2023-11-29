@@ -1,3 +1,8 @@
+# 2023-11-29: v0.8.1
+
+## 🐞 Fixes:
+- Corrected logo markup for Nuget package
+
 # 2023-11-27: v0.8.0
 ## ❗ BREAKING:
 - Updated to .NET 8

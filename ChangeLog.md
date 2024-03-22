@@ -1,3 +1,62 @@
+# 2024-03-22: v0.92.4
+
+## 🎁 New features:
+- Added Nuget Template for non-Windows prototypes
+- Added support for NamespaceDocs, to provide tooltips and styling to Library Namespace nodes
+- Added support for C# Records (immutable once saved)
+- Added support for PersistenceAttribute.IsImmutable on class properties
+- File logging now controlled in Program.cs
+
+## 🐞 Fixes:
+- Collections: Contents now refresh when all collection items are replaced
+- Collections: Corrected column sorting
+- Collections: Value Objects become read-only after being saved
+- Collections: Prevent fatal errors when editors lose focus
+- EnumRadioEditor: Hide tooltip if empty
+- EnumSelectEditor: Now handles Nullable<Enum>
+- EnumBitwiseCheckboxEditor: Now handles Nullable<Enum>
+- Explorers: Inline Objects on first tab are eagerly loaded
+- Explorers: Allow null Inline Objects on first tab
+- Explorers: Corrected exception when closing multiple explorers
+- Explorers: Always eagerly load object/collection properties (unless they use RelationalQuerySpecifications)
+- Explorers/Collections: Use inheritance depth when ordering Properties for inherited Classes
+- ObjectSelectEditor: Update when Property is set to NULL
+- ObjectSelectEditor: Show correct selection by default
+- ObjectSelectEditor: Prevent exception when dropdown is repainted
+- UrlEditor: Disable drop-down when necessary
+- UI: Corrected custom CSS precedence
+- UI: Corrected project name in title bar
+- Services: Ensure custom Dependencies override existing registrations
+- Search Form: Corrected Close button icon
+- Search Form: Scroll form into view when it opens
+- Search Form: Allow searching on Interface Types
+- Aggregate References: Allow up-casting of generic Domain Classes
+- Search Queries: Corrected filter clause building
+- Nuget Templates: Include XML docs
+
+## 🎨 Improvements
+- Collections: Improved usability for wide tables (scrolling)
+- Collections: Improved usability for in-line cell editing (edit icons)
+- Collections: Allow subset of columns to be shown
+- Collections: Added support for expandable rows
+- Object Properties: Disable 'associate/link' action if UiAttribute.PreferredControl == Select
+- Explorers: Added animation to show when explorer gets focus
+- Explorers: Improved indentation/layout for Inline Objects
+- Explorers: Prevent editing if PersistenceAttribute.IsImmutable is set
+- UI styling: Added wait animation to hide UI lag
+- UI styling: Changed icon for "View" actions
+- UI styling: Updated aesthetics for Date/Time/DateTime editors in Doodle mode
+- UI styling: Updated aesthetics for Boolean editor in Doodle mode
+- UI: "Add/Create" actions now let User decide if Explorer windows should open immediately
+- Search Form: Modal automatically closes if User chooses "View" action
+- Search Form: Renamed "OK" to "Use selection", for clarity
+
+## 💨 Other:
+- Performance: Improved startup performance
+- Upgraded 3rd-party NuGet dependencies
+
+----------------------------------------
+
 # 2023-11-29: v0.8.1
 
 ## 🐞 Fixes:

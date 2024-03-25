@@ -14,26 +14,27 @@ Fresnel is built using Blazor on .NET 8 and Visual Studio 2022.
 
 ## Getting Started
 
-### Requirements
+<!-- Copy this from Fresnel.Wiki/getting-started.md -->
+## Requirements
 
 - Windows 10 or above
 - .NET 8
-- Visual Studio 2022, with Workloads for:
+### Supported IDEs:
+- Visual Studio 2022, with workloads for:
   - .NET Desktop Development
   - .NET Multi-platform App UI Development
-- **OR** Visual Studio Code with:
+- Visual Studio Code with:
   - C# Dev Kit
- 
+- JetBrains Rider
+
+<!-- Copy this from Fresnel.Wiki/create-a-new-prototype.md -->
 ### Install the template
 ```
 > cd <my repo folder>
 > dotnet new install Envivo.Fresnel.Templates
-> dotnet new fresnelprototype -o MyFirstPrototype
+> dotnet new fresnel-prototype-winforms  👈 // For Windows project
+> dotnet new fresnel-prototype-webserver 👈 // For non-Windows project
 ``` 
- 
-### Watch the video
-This short video gives you an example of what Fresnel can do:
-  - [Fresnel 4 minute intro](https://www.youtube.com/watch?v=vcZyE4HZavQ)
 
 ### Sample projects
 

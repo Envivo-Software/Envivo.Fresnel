@@ -1,3 +1,10 @@
+# 2024-03-25: v0.92.5
+
+## 🐞 Fixes:
+- docs: Corrected dotnet template install step
+
+----------------------------------------
+
 # 2024-03-22: v0.92.4
 
 ## 🎁 New features:

@@ -1,3 +1,21 @@
+# 2024-05-20: v0.94.0
+
+## 🎁 New features:
+- Added Nuget Template for Web Server Application
+
+## 🐞 Fixes:
+- Startup: Allow user to close WinForms app if it crashes during startup
+- Objects: Fixed regression around Property injection
+- FileEditor: Now opens selector dialog
+- About panel: Corrections for Preview/Demo versions
+- UI: Removed broken font link
+
+## 🎨 Improvements
+- Model Configuration: Inline Attributes now take precedence over Model Config classes
+- Library: Improved layout for namespace groups
+
+----------------------------------------
+
 # 2024-03-25: v0.92.5
 
 ## 🐞 Fixes:

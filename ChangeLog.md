@@ -1,3 +1,9 @@
+# 2024-06-04: v0.94.2 (hotfix)
+
+## 🐞 Fixes:
+- Nuget WebAssembly Template: Ensure browser loads default page at startup
+
+----------------------------------------
 # 2024-05-20: v0.94.0
 
 ## 🎁 New features:

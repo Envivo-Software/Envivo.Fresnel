@@ -1,7 +1,8 @@
-# 2024-06-04: v0.94.2 (hotfix)
+# 2024-06-09: v0.94.2 (hotfix)
 
 ## 🐞 Fixes:
 - Nuget WebAssembly Template: Ensure browser loads default page at startup
+- Nuget Templates: All publish.bat scripts now use default Publish Profile
 
 ----------------------------------------
 # 2024-05-20: v0.94.0

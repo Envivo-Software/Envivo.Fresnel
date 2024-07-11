@@ -1,3 +1,22 @@
+# 2024-07-11: v0.95
+
+## 🎁 New features:
+- Bootstrap: Now uses conventional 'fluent builder' pattern for bootstrapping
+- UI: Added 'User Feedback' feature
+
+## 🐞 Fixes:
+- Bootstrap: Enable Default Logging if explicitly requested
+- Collections: LoadPropertyCommand now prevents load if collection contains unsaved changes
+- Command Objects: Added support for new generic ICommandObject<T> interfaces
+- Command Objects: Now allows parent object to be passed to Execute() method
+- Library: Better handling of empty/missing Domain Assemblies
+- Messages Panel: Latest row now appears instantly when Exception forces panel to open
+- Messages Panel: Corrections for Warnings + Requires Acknowledgement
+- UI: Hide "Create" Popover when Confirm Dialog appears
+- UI: Method dialog: Increase width to cope with DateTime editors
+- Workbench: Prevent Explorers re-drawing when rows are shuffled
+
+----------------------------------------
 # 2024-06-09: v0.94.2 (hotfix)
 
 ## 🐞 Fixes:

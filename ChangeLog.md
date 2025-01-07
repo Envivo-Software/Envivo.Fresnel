@@ -1,3 +1,23 @@
+# 2025-01-07: v0.96
+
+## 🎁 New features:
+- Search: Search results now appear in new sliding panel, instead of on the Workbench
+- Messages Panel: Allow user to show the Explorer that raised an Exception
+- UI: Allow user-defined Razor components to be used for objects (experimental)
+
+## 🐞 Fixes:
+- Library: NamespaceDoc class now supports [VisibleAttribute]
+- Library: Now handles empty Namespaces
+- Persistence: Prevent detached objects being included in Save
+- Server: Load command now extracts correct item
+- Search: Corrected null exception in certain cases
+- Search: Prevent Search Results from overwriting objects on the Workbench
+- UI: Field 'value changed' animations no longer fire when Tab contents appear
+
+## 🎨 Improvements
+- UI styling: More contemporary layout for tabs, interactions, and UX
+
+----------------------------------------
 # 2024-07-11: v0.95
 
 ## 🎁 New features:

@@ -1,3 +1,64 @@
+# 2024-04-23: v0.98
+
+## 🎁 New features:
+- UI: Added Line, Bar, Column, Bubble, TreeMap Charts (supports `ModelTypes.ICalendar`)
+- UI: Added CalendarView (supports `ModelTypes.ICalendar`)
+- UI: Now supports  DateOnly types
+- UI: New UiExplorerAttribute allows Explorers to open at different sizes
+- UI: Added support for custom backgrounds
+- Collections: Custom "Add" and "Remove" methods now support multiple parameters (via Method Dialog)
+- Bootstrap: Allow Default Explorer or Search to be opened when application starts
+
+## 🐞 Fixes:
+- UI: Disabled Date/Time picker now use same colour as disabled Input fields
+- UI: SearchResultsTabs now render correctly when same search is re-run
+- UI: Corrected property value in Collection cell Editors
+- UI: Maximising Card only extends width
+- UI: Prevent tabstop on Tooltips
+- UI: Dialogs now use consistent sizing across resolutions
+- UI: ObjectExplorer hides MethodsPanel if no common Methods exist
+- UI: Collections now hide contents of Items marked [Visible(false)]
+- UI: Collections for deeply nested persisted objects are now rendered
+- UI: Prevent Collection Expanded Inline Objects exceeding 1200px
+- UI: Library now excludes empty namespaces
+- UI: CommandObjectDialog now shows Description
+- UI: Confirm Dialog now shows correct text buttons
+- UI: InvokeMethodUsingCommandObjectCommand now shows exceptions
+- UI: Removed rogue semi-colons, better alignment of Descriptions
+- UI: Correction in DialogWidthCalculator
+- UI: Method Dialog Parameter Items now use same Name + Description formatting
+- Core: InstanceTracker no longer forces Properties with IsLazyLoaded
+- Core: Ensure dependencies are injected into retrieved object
+- Core: PropertyChange Event now has correct NewValue
+- Core: Use most accurate Type when dealing with polymorphic objects
+- Core: No longer errors if Domain Model Collections contain Non-Reference types
+- Core: Correction when detecting WASM vs SSR mode
+- Core: Added missing await statements
+- Core: ValueObject properties now identified as CompositeRelationship
+- Xml Docs: Now reads inherited Comments from Interface definitions
+
+## 🎨 Improvements
+- UI: Better layouts/spacing/aesthetics
+- UI: Single Explorer now appears horizontally centered
+- UI: Property Field sizes now based on the Editor Control type
+- UI: Number Field now right aligned
+- UI: Replaced central message alerts with toast messages
+- UI: Improved layout across different screen resolutions
+- UI: Hide collection Paginator until more records exist
+- UI: Method/Command Dialogs move focus to first editable field
+- UI: Editors now support change on "Enter" keypress
+- UI: Inline "Create" only opens new Explorer windows for complex objects
+- UI: Corrected text for "Replace Interaction"
+- UI: Value Objects now have "Edit these values"
+- UI: Search Dialogs now appear slightly higher
+
+## 💨 Other:
+- Performance: Use static Assertions/Exceptions to reduce pressure
+
+----------------------------------------
+# 2024-02-11: v0.97 (internal release)
+
+----------------------------------------
 # 2025-01-07: v0.96
 
 ## 🎁 New features:

@@ -47,4 +47,4 @@ Fresnel is built using Blazor on .NET 8 and Visual Studio 2022.
 ### Documentation
 The Developer's guide can be found at https://github.com/Envivo-Software/Envivo.Fresnel/wiki
 
-*Copyright 2022-2024 Envivo Software*
+*Copyright 2022-2025 Envivo Software*

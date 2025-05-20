@@ -1,3 +1,38 @@
+# 2024-05-08: v0.99.3
+
+## 🎁 New features:
+- UI: UserDefinedView now has toggle switch to revert to Fresnel UI
+
+## 🐞 Fixes:
+- UI: Explorer Title bar is now sticky
+- UI: UserDefinedView now has same layout as normal Explorers
+- UI: Fixed error in Charts that use anonymous types
+- UI: ExecuteDomainActionCommand now supports async
+
+## 🎨 Improvements
+- UI: Charts now support colours
+
+## 💨 Other:
+- Performance: More fin-tuning
+
+# 2024-05-08: v0.99
+
+## 🎁 New features:
+- UI: Added simple loading animation
+- Bootstrap: Now warns if injected Dependencies have mismatched lifetimes
+
+## 🐞 Fixes:
+- UI: NumberEditor, PasswordEditor, TextAreaEditor, EnumBitwiseEditor, and EnumSelectEditor now render animation when value changes
+
+## 🎨 Improvements
+- UI: Improved margins, added radius to 'soften' aesthetics
+- UI: Fixed inner section alignment inside modals
+- UI: Symmetrical margins for nested Collections and Collection expanded rows
+
+## 💨 Other:
+- Performance: Optimised bootstrap process
+- Performance: Replaced dynamic IL with Expressions
+
 # 2024-04-23: v0.98
 
 ## 🎁 New features:

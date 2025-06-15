@@ -1,4 +1,25 @@
-# 2024-05-08: v0.99.3
+# 2024-06-15: v0.99.4 (internal release)
+
+## 🎁 New features:
+- UI: Ability to switch between Light/Dark themes
+- UI: Allow properties to be hidden in SearchResults using VisibleAttribute
+
+## 🐞 Fixes:
+- UI: Restored empty Object Property item
+- UI: FileEditor allows direct editing in textbox
+- UI: Ensure icons are visible when app is offline
+- UI: ExecuteDomainActionCommand now opens Result objects on the workbench
+- UI: Block up the space above the title, to prevent scrollable content appearing there
+- UI: Doodle mode: Don't apply italic style to custom Icons
+- UI: Ensure watermark appears above other windows
+
+## 🎨 Improvements
+- UI: Added missing padding on Explorer title
+- UI: Use Primary colours for buttons
+- UI: Search Results table now clips long text content
+
+-----------------------------------------
+# 2024-05-08: v0.99.3 (internal release)
 
 ## 🎁 New features:
 - UI: UserDefinedView now has toggle switch to revert to Fresnel UI
@@ -13,9 +34,10 @@
 - UI: Charts now support colours
 
 ## 💨 Other:
-- Performance: More fin-tuning
+- Performance: More fine-tuning
 
-# 2024-05-08: v0.99
+-----------------------------------------
+# 2024-05-08: v0.99 (internal release)
 
 ## 🎁 New features:
 - UI: Added simple loading animation
@@ -33,6 +55,7 @@
 - Performance: Optimised bootstrap process
 - Performance: Replaced dynamic IL with Expressions
 
+----------------------------------------
 # 2024-04-23: v0.98
 
 ## 🎁 New features:

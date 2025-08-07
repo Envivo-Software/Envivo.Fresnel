@@ -1,3 +1,38 @@
+# 2024-08-10: v0.99.8 (internal release)
+
+## 🐞 Fixes:
+- UI: Non-reference Collections no longer cause crashes
+- UI: Correction when opening new Explorers to the right of their immediate parent
+- UI: Explorer card height remains constant when toggling between Normal & Expanded sizes
+- UI: Restored custom Explorer accent colours
+- UI: Custom UI actions now cause Workbench toolbar to update too
+- UI: Method Button text now truncates if too long
+- Explorers: Now renders with properties named "Details" with correct contents
+- Core: Do not register solo Interfaces as resolvable Dependencies
+- Search: Corrected filtering of subtypes in inheritance trees
+- Persistence: Corrected Save status when Adding and Removing the same object to a collection
+
+## 🎨 Improvements
+- UI: Maximised Explorers now fit better on different screens
+- UI: Tweaks for aesthetics
+
+-----------------------------------------
+
+# 2024-06-26: v0.99.5 (internal release)
+
+## 🎁 New features:
+- UI: UiControlType.Range now renders as Slider control
+
+## 🐞 Fixes:
+- UI: Improved null handling in DataCharts
+- UI: EntityReference<T> now moves focus to correct Explorer
+- UI: Corrected when rendering InlineExpanded objects
+
+## 🎨 Improvements
+- UI: DataChart now shows related Methods
+- UI: Prevent Light/Dark theme switching in Doodle Mode
+
+-----------------------------------------
 # 2024-06-15: v0.99.4 (internal release)
 
 ## 🎁 New features:
@@ -36,6 +71,7 @@
 ## 💨 Other:
 - Performance: More fine-tuning
 
+-----------------------------------------
 -----------------------------------------
 # 2024-05-08: v0.99 (internal release)
 

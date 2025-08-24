@@ -1,3 +1,16 @@
+# 2024-08-24: v0.99.9
+
+## 🎁 New features:
+- Core: Added IModelSpace, so domain logic can access objects already loaded into memory
+- Core: Added support for EntityReference when setting object properties
+
+## 🎨 Improvements
+- Core: Now supports Non-reference Collections  properties (e.g. ICollection<string>)
+- UI: Basic rendering for Non-reference Collections
+- UI: Method names no longer show Dependency parameter names
+
+-----------------------------------------
+
 # 2024-08-10: v0.99.8 (internal release)
 
 ## 🐞 Fixes:
